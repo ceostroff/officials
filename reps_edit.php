@@ -70,8 +70,8 @@ if ( isset($_POST['id']) ) {
             printf ("<td>%s</td>", stripslashes($name));
             printf ("<td>%s</td>", $title);
             printf ("<td>%s</td>", $phone);
-            printf ("<td>%d</td>", $email);
-            printf ("<td>%.02f</td>", $address);
+            printf ("<td>%s</td>", $email);
+            printf ("<td>%sf</td>", $address);
             printf ("<td>%s</td>", $updated);
 
         } // end while-loop

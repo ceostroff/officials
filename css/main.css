@@ -137,6 +137,9 @@ input[type='submit']:focus {
 		margin: 10px auto;
 	}
 	#reps { width: 100%; }
+    #pic {
+        height: 250px;
+    }
     h1 {
         text-align, title: center;
     }

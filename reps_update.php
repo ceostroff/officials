@@ -93,16 +93,16 @@ if ( isset($_POST['choice']) ) {
                  we use stripslashes() to get rid of the slashes -->
 
             <label for="title">Title </label>
-	<input type="text" name="title" id="title" maxlength="20" required value="<?php echo $title ?>">
+	<input type="text" name="title" id="title" maxlength="40" required value="<?php echo $title ?>">
 
               <label for="phone">Phone </label>
-	<input type="number" name="phone" id="phone" maxlength="10" required value="<?php echo $phone ?>">
+	<input type="text" name="phone" id="phone" maxlength="40" required value="<?php echo $phone ?>">
 
              <label for="email">Email </label>
-	<input type="text" name="email" id="email" maxlength="20" required value="<?php echo $email ?>">
+	<input type="text" name="email" id="email" maxlength="40" required value="<?php echo $email ?>">
 
             <label for="address">Address </label>
-	<input type="text" name="address" id="address" maxlength="20" required value="<?php echo $address ?>">
+	<input type="text" name="address" id="address" maxlength="40" required value="<?php echo $address ?>">
              <!-- step="0.01" (above) allows decimal to be entered -->
 
          	<input type="submit" id="submit" value="Update Record">

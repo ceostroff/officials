@@ -60,6 +60,8 @@
 </form>
 
 <p class="middle"><a href="enter_new_record.php">Add a elected official</a></p>
+    <p class="middle">Go back to the <a href="index.html">home page</a></p>
+
 
 </div> <!-- close container -->
 </body>
