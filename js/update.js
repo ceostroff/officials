@@ -36,7 +36,7 @@ $("#repsdelete").on("submit", function(e) {
 });
 
 // if update
-$("#repupdate").on("submit", function(e) {
+$("#repsupdate").on("submit", function(e) {
 
 	$.ajax({
 		url:  "update.php",

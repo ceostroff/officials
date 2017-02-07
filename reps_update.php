@@ -13,7 +13,7 @@
 <body>
 <div id="container">
 
-<h1>Sock Market: Update Existing Record</h1>
+<h1>Update Existing Record</h1>
 <!-- this page opens if you selected edit or delete
      in socks_edit.php and submitted the form
      and this page chooses which form to show you

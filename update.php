@@ -37,7 +37,7 @@ if ( isset($_POST['id']) && isset($_POST['name']) ) {
         // note that 7 letters in 'sssidsi' MUST MATCH data types in table
         // Type specification chars:
         // i - integer, s - string , d - double (decimal), b - blob
-        mysqli_stmt_bind_param($stmt, 'ssisssi',
+        mysqli_stmt_bind_param($stmt, 'ssssssi',
         $name,
         $title,
         $phone,

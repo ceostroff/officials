@@ -27,7 +27,7 @@
 	<input type="text" name="title" id="title" maxlength="40" required>
     
     <label for="phone">Phone </label>
-	<input type="text" name="phone" id="phone" maxlength="10" required>
+	<input type="text" name="phone" id="phone" maxlength="40" required>
     
     <label for="email">Email </label>
 	<input type="text" name="email" id="email" maxlength="40" required>
